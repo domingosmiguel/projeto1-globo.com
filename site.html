@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+          <meta charset="UTF-8" />
+          // Linha adicionada para que o media query funcione no "toggle device emulation" do
+          Chorme. // Aparentemente o Chrome sempre tenta encaixar uma tela de 946px em qualquer
+          largura de tela da ferramenta. // O comando abaixo faz ele renderizar com a largura atual
+          da emulação.
+          <meta name="viewport" content="width=device-width" />
+          <title>Globo.com</title>
+          <link rel="stylesheet" href="reset.css" />
+          <link rel="stylesheet" href="style.css" />
+          <link rel="stylesheet" href="media-query.css" />
+     </head>
+     <body>
+          <header>
+               <div class="logo">
+                    <picture>
+                         <source srcset="./images/logo_desktop.png" media="(min-width: 631px)" />
+                         <img class="logo-img" src="./images/logo_mobile.png" alt="Globo.com" />
+                    </picture>
+               </div>
+               <div class="zero"></div>
+               <div class="catalogue-container-desktop">
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b1">g1</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b2">o globo</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b3">valor</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b4">ge</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b5">cartola</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b6">globoplay</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b7">dropz</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b8">gshow</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b9">quem</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b10">receitas</div>
+                    </a>
+               </div>
+               <div class="catalogue-container-mobile">
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b1">g1</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b4">ge</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b8">gshow</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b11">tech</div>
+                    </a>
+                    <a href="https://globo.com">
+                         <div class="catalogue-btn b12">vídeos</div>
+                    </a>
+               </div>
+               <div class="up-zero"></div>
+          </header>
+          <main>
+               <div class="container-left">
+                    <div class="title-subtitle">
+                         <div class="title">
+                              Vacinados entrarão nos EUA sem quarentena a partir de 8 de novembro
+                         </div>
+                         <div class="subtitle">
+                              Ministros ‘lavam as mãos’ sobre Bolsonaro não se vacinar, relata blog
+                              Bandeiras em frente ao Congresso lembram 600 mil brasileiros mortos
+                         </div>
+                    </div>
+                    <div class="horizontal-line"></div>
+                    <div class="horizontal">
+                         <div class="ft-news-left">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-left"
+                                        src="./images/alem-do-presidente.jpeg"
+                                        alt="alem-do-presidente"
+                                   />
+                              </a>
+                              <div class="keywords-left">Além do presidente</div>
+                              <div class="news-title red">
+                                   CPI deve pedir indiciamento de filhos de Bolsonaro
+                              </div>
+                              <div class="news-subtitle red">
+                                   A evangélicos, Bolsonaro diz ‘chorar sozinho em casa’
+                              </div>
+                         </div>
+                         <div class="ft-news-left">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-left"
+                                        src="./images/crimes-na-fronteira.jpeg"
+                                        alt="crimes-na-fronteira"
+                                   />
+                              </a>
+                              <div class="keywords-left">Crimes na fronteira</div>
+                              <div class="news-title red">
+                                   Triângulo amoroso vira chave em linha de investigação
+                              </div>
+                              <div class="news-subtitle red">
+                                   1ª de 7 mortes entre Brasil e Paraguai faz 1 semana
+                              </div>
+                         </div>
+                         <div class="ft-news-left">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-left"
+                                        src="./images/reino-unido.jpeg"
+                                        alt="reino-unido"
+                                   />
+                              </a>
+                              <div class="keywords-left">Reino Unido</div>
+                              <div class="news-title red">
+                                   Parlamentar inglês é esfaqueado e morto em igreja
+                              </div>
+                              <div class="news-subtitle red">
+                                   Homem de 25 anos foi preso no local, diz polícia
+                              </div>
+                         </div>
+                    </div>
+                    <div class="horizontal-line"></div>
+                    <div class="horizontal">
+                         <div class="news">
+                              <div class="keywords-left">Sabatina de Mendonça</div>
+                              <div class="news-title red">
+                                   PGR é consultada sobre investigação contra Alcolumbre
+                              </div>
+                              <div class="news-subtitle red">
+                                   Aliados dizem que situação de Alcolumbre ‘está feia’
+                              </div>
+                         </div>
+                         <div class="news">
+                              <div class="keywords-left">Negócio de R$ 5,2 bi</div>
+                              <div class="news-title red">
+                                   Pão de Açúcar vende 71 pontos do Extra para o Assaí
+                              </div>
+                              <div class="news-subtitle red">
+                                   Lembre fusões e aquisições bilionárias recentes no país
+                              </div>
+                         </div>
+                         <div class="news">
+                              <div class="keywords-left">Elo com caminhoneiros</div>
+                              <div class="news-title red">
+                                   Podcast: ministro liga empresários a atos de 7/9; ouça
+                              </div>
+                              <div class="news-subtitle red">
+                                   Neto de Jango critica veto de Bolsonaro a tributo
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="container-right">
+                    <div class="vertical-line"></div>
+                    <div class="vertical middle">
+                         <div class="ft-news-middle">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-right"
+                                        src="./images/espiao-estatistico.jpeg"
+                                        alt="espiao-estatistico"
+                                   />
+                              </a>
+                              <div class="keywords-middle">Espião estatístico</div>
+                              <div class="news-title green">
+                                   Classificação do returno tem Palmeiras em último; veja as
+                                   posições
+                              </div>
+                              <div class="news-subtitle green">
+                                   Crespo almoça com diretoria e deve se despedir no CT
+                              </div>
+                         </div>
+                         <div class="ft-news-middle">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-right"
+                                        src="./images/greve-segue-na-raposa.jpeg"
+                                        alt="greve-segue-na-raposa"
+                                   />
+                              </a>
+                              <div class="keywords-middle">Greve segue na Raposa</div>
+                              <div class="news-title green">
+                                   Cruzeiro não viabiliza recurso para quitar atrasados
+                              </div>
+                         </div>
+                         <div class="ft-news-middle">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-right"
+                                        src="./images/campeonato-frances.jpeg"
+                                        alt="campeonato-frances"
+                                   />
+                              </a>
+                              <div class="keywords-middle">Campeonato francês</div>
+                              <div class="news-title green">
+                                   Desfalcado, PSG recebe o Angers, 4º colocado
+                              </div>
+                         </div>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="vertical">
+                         <div class="ft-news-right">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-right"
+                                        src="./images/ferias-e-jh.jpeg"
+                                        alt="ferias-e-jh"
+                                   />
+                              </a>
+                              <div class="keywords-right">Férias e JH</div>
+                              <div class="news-title orange">
+                                   César Tralli se emociona na despedida do SP1
+                              </div>
+                         </div>
+                         <div class="ft-news-right">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-right"
+                                        src="./images/verdades-secretas-2.jpeg"
+                                        alt="verdades-secretas-2"
+                                   />
+                              </a>
+                              <div class="keywords-right">Verdades Sceretas 2</div>
+                              <div class="news-title orange">
+                                   Angel cruza a passarela poderosa; reveja desfiles
+                              </div>
+                              <div class="news-subtitle orange">
+                                   Blanche terá dois relacionamentos Gabriel viverá sadomasoquista
+                              </div>
+                         </div>
+                         <div class="ft-news-right">
+                              <a href="https://globo.com">
+                                   <img
+                                        class="img-right"
+                                        src="./images/nos-tempos-do-imperador.jpeg"
+                                        alt="nos-tempos-do-imperador"
+                                   />
+                              </a>
+                              <div class="keywords-right">Nos Tempos do Imperador</div>
+                              <div class="news-title orange">Lota vai cair em golpe</div>
+                              <div class="news-subtitle orange">Teresa toma decisão radical</div>
+                         </div>
+                    </div>
+               </div>
+          </main>
+     </body>
+</html>
